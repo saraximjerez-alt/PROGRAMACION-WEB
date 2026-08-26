@@ -5,14 +5,13 @@ public class NOMPERSONA {
     private int edad;
     private String documento;
 
-    // Constructor
+   
     public NOMPERSONA(String nombre, int edad, String documento) {
         this.nombre = nombre;
         this.edad = edad;
         this.documento = documento;
     }
 
-    // Getters y Setters
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
@@ -22,7 +21,7 @@ public class NOMPERSONA {
     public String getDocumento() { return documento; }
     public void setDocumento(String documento) { this.documento = documento; }
 
-    // Método mostrarInformacion
+    
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre + " | Edad: " + edad + " | Documento: " + documento);
     }
